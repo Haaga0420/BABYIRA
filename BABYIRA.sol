@@ -28,8 +28,8 @@ contract BabyIRA is Ownable, ReentrancyGuard, AccessControl, Pausable {
     using SafeMath for uint256;  // Using SafeMath for safe arithmetic operations
 
     string public name = "BabyIRA";
-    string public symbol = "TiTbaby";
-    uint256 public totalSupply = 420024069960 * 10**18;  // total supply with decimals
+    string public symbol = "BABYIRA";
+    uint256 public totalSupply = 420024069 * 10**18;  // total supply with decimals
     uint256 public sellTaxPercentage = 25;  // Initial sell tax
     uint256 public constant defaultSellTax = 5;  // Default sell tax after initial phase
     uint256 public constant defaultBuyTax = 5;  // Default buy tax
